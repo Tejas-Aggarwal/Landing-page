@@ -1,6 +1,9 @@
+
+
 *{
     margin:0px;
     padding:0px;
+    
     
 }
 
@@ -14,12 +17,13 @@ a{
     text-decoration: none;
 }
 
-img{
+.vagabond{
     width:550px;
     height:350px;
     margin-left:100px;
-    margin-bottom:80px;
-    margin-top:-30px;
+    position:relative;
+    bottom:50px;
+    right:30px;
     
     
 }
@@ -57,7 +61,7 @@ img{
     margin-top: 10px;
 }
 
-button{
+.button1{
     background-color: #3882f6;
     padding: 10px;
     border-radius: 10px;
@@ -75,6 +79,138 @@ button{
 
 .main-sub-button{
     margin-bottom:80px;
+    
+}
+
+.information{
+    height: 350px;
+}
+
+.fav{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.card{
+    width:200px;
+    height:200px;
+    border:3px solid #3882f6;
+    border-radius: 15%;
+}
+
+.card-text-container{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    gap:20px;
+}
+
+.text{
+    width:200px;
+    margin-top:10px;
+    
 }
 
 
+
+#card1 {
+    background-image: url("images/baku.jpg");
+    background-size: cover;
+}
+
+#card2 {
+    background-image: url("images/guts.jpg");
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url("images/jotaro.png");
+    background-size: cover;
+}
+
+#card4 {
+    background-image: url("images/thorfinn.jpeg");
+    background-size: cover;
+}
+
+#text1{
+    padding-left:20px;
+}
+
+#text2{
+    padding-left:50px;
+}
+
+#text3{
+    padding-left:30px;
+}
+
+#text4{
+    padding-left:15px;
+}
+
+.quote-box{
+    background-color: #e5e7eb;
+    padding:120px;
+    
+}
+
+.bigtext{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.smalltext{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.text-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.sign-up{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 700px;
+    height:120px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    margin-top:40px;
+}
+
+.button2{
+    margin-top:5px;
+    width:100px;
+    height:30px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    border:1px solid white;
+    
+}
+.button-area{
+    margin: auto;
+    
+}
+.text-area{
+    color: white;
+    margin: auto;
+    font-weight: bolder;
+}
