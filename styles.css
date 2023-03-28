@@ -69,6 +69,7 @@ a{
     color: white;
     width:120px;
     margin-top:10px;
+    border:1px solid #3882f6;
 }
 
 .header-container{
@@ -213,4 +214,13 @@ a{
     color: white;
     margin: auto;
     font-weight: bolder;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+    color: white;
+    margin-top:50px;
 }
